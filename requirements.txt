@@ -6,8 +6,8 @@ sentence-transformers>=2.7.0
 FlagEmbedding>=1.2.10
 faster-whisper>=1.0.0
 
-# Explainability
-pytorch-grad-cam>=1.5.0
+# Explainability (PyPI package is named 'grad-cam'; import path is 'pytorch_grad_cam')
+grad-cam>=1.5.0
 
 # UI
 gradio>=4.31.0
