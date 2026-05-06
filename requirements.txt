@@ -1,33 +1,30 @@
-# Core ML / inference
-torch>=2.1.0
-torchvision>=0.16.0
-transformers>=4.40.0
-sentence-transformers>=2.7.0
-FlagEmbedding>=1.2.10
-faster-whisper>=1.0.0
+# Core
+torch>=2.0
+transformers>=4.40
+accelerate>=0.30
+sentence-transformers>=3.0
+FlagEmbedding>=1.2
 
-# Explainability (PyPI package is named 'grad-cam'; import path is 'pytorch_grad_cam')
-grad-cam>=1.5.0
+# Vision / video
+opencv-python-headless>=4.8
+moviepy>=1.0
+yt-dlp>=2024.1.1
+pillow>=10.0
 
-# UI
-gradio>=4.31.0
+# ASR
+faster-whisper>=1.0
 
-# Video / audio I/O
-yt-dlp>=2024.4.9
-moviepy>=1.0.3
-opencv-python>=4.9.0
-imageio>=2.34.0
-imageio-ffmpeg>=0.4.9
+# XAI
+grad-cam>=1.5
 
-# LLM API
-groq>=0.9.0
+# UI / API
+gradio>=4.40
+groq>=0.9
 
-# Plotting
-matplotlib>=3.8.0
-seaborn>=0.13.0
-
-# Utils
-python-dotenv>=1.0.0
-tqdm>=4.66.0
-numpy>=1.24.0
-Pillow>=10.0.0
+# Utilities
+matplotlib>=3.8
+seaborn>=0.13
+pandas>=2.0
+numpy>=1.24
+tqdm>=4.66
+python-dotenv>=1.0
